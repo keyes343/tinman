@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat|Architects+Daughter|Cutive|Nanum+Brush+Script|Reenie+Beanie&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css?family=Roboto|Alegreya|Alegreya+Sans|Alegreya+Sans+SC|Amatic+SC|Atma&display=swap'); */
+/* font-family: 'Atma', cursive;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Alegreya', serif;
+font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Amatic SC', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Alegreya+Sans+SC|Alegreya+Sans|Alegreya|Atma|Muli|Pompiere&display=swap');
+
+/* 'Reenie Beanie', cursive; ----- 'Nanum Brush Script', cursive; ----- 'Pompiere', cursive; ----- */
+
+:root{
+  /* fonts */
+  /* --inputLabel:'Montserrat', sans-serif;
+  --cutive: 'Cutive', serif;
+  --subHeading : 'Nanum Brush Script', cursive; */
+  /* --architectsdaughter: 'Architects Daughter', cursive; */
+  --pompiere : 'Pompiere', cursive;
+  --atma:'Atma', cursive;
+  --roboto: 'Roboto', sans-serif;
+  --placeholder: 'Alegreya Sans SC', sans-serif;
+  --default :  'Muli', sans-serif;
+  --button :  'Alegreya Sans SC', sans-serif;
+  /* --amatic : 'Amatic SC', cursive;
+  bgcl for buttors */
+  --bgclForButtonOnWhitePage : #1f4e5d; /*greenish blue*/
+  --greyColor : #cdc9be;
+  --yellowColor : #ffd998;
+  --maroonColor : #420a0a;
+  --lightRedColor: #ffc4b8;
+  --nav-bgcl : #192b3b;
+  --lightBlueColor: #b8c3ff;
+  --transparentBlue: rgba(200,215,235,0);
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans SC','Pompiere','Alegreya Sans','Roboto', sans-serif,cursive;
+  scroll-behavior: smooth; 
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+table,tbody,tr,td{
+    border-spacing:0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hoverButton:hover{
+    /* background-color: black; */
+    font-size: 1.6rem;
 }
